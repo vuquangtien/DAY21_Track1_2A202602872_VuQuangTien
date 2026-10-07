@@ -72,21 +72,3 @@
 | Probability | **Cao đối với nhóm khớp ngưỡng tuổi:** logic được lập trình để tự động từ chối. Không có mẫu số nên không nêu tỷ lệ phần trăm. |
 | Frequency | **Chưa đủ dữ liệu để đánh giá tần suất theo thời gian.** Việc EEOC nêu hơn 200 trường hợp cho thấy hành vi không chỉ là một lần đơn lẻ, nhưng nguồn không cho số đợt tuyển dụng hoặc thời gian vận hành. |
 | Vì sao? | Nguồn EEOC là nguồn cơ quan thực thi, cung cấp ngưỡng tuổi, số “more than 200”, khoản dàn xếp và thời hạn giám sát. Severity/Scale/Probability là đánh giá của tôi; giới hạn là thông cáo không mô tả thuật toán chi tiết hay mẫu số tổng đơn. |
-
-## 4. Tổng kết và đề xuất kiểm soát
-
-Hai case cùng thuộc tuyển dụng, nhưng biểu hiện khác nhau: Amazon cho thấy dữ liệu lịch sử có thể làm hệ thống học thiên lệch; iTutorGroup cho thấy quy tắc tự động có thể mã hóa trực tiếp tiêu chí loại trừ. Vì vậy, với AI hỗ trợ tuyển dụng, tôi đề xuất:
-
-1. Không dùng thuộc tính bảo vệ hoặc biến đại diện (proxy) để tự động loại ứng viên; kiểm tra chênh lệch kết quả giữa các nhóm trước khi triển khai và định kỳ sau triển khai.
-2. Mọi trường hợp bị AI đề xuất loại phải có cơ chế human review độc lập, ghi lại lý do và cho ứng viên đường phản hồi/xem xét lại.
-3. Giảm dữ liệu xuống mức cần thiết, thông báo rõ dữ liệu nào được xử lý và thời gian lưu giữ; đặc biệt thận trọng với video, giọng nói và dữ liệu suy ra.
-4. Công bố giới hạn của công cụ, lưu log/audit trail và dừng triển khai khi phát hiện chênh lệch chưa giải thích được.
-
-## 5. Checklist trước khi nộp
-
-- [x] Chọn đúng một ngành: HR / tuyển dụng.
-- [x] Có Industry Risk Snapshot đủ bốn nội dung.
-- [x] Có 2 case khác nhau cùng ngành; mỗi case có mô tả, số liệu và nguồn mở được.
-- [x] Mỗi case có Harm Map đủ 11 trường.
-- [x] Phân biệt sự kiện có nguồn với nhận định/nguy cơ của cá nhân.
-- [ ] Commit thay đổi, kiểm tra repo ở chế độ ẩn danh, rồi nộp URL repo trên AI Codelabs.
