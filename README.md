@@ -3,7 +3,7 @@
 - **Họ và tên:** Vũ Quang Tiến
 - **MSSV / mã học viên:** 2A202602872
 - **Lớp:** Track 1 — 2A
-- **Ngành đã chọn:** HR / tuyển dụng (AI sàng lọc và xếp hạng ứng viên)
+- **Ngành đã chọn:** Product Management
 - **Ngày hoàn thiện nguồn:** 07/10/2026
 
 > **Cách đọc báo cáo:** Các câu có liên kết nguồn là dữ kiện/sự kiện được nguồn đó nêu. Những nhận định đánh giá trong Harm Map được ghi rõ là phân tích của tôi. Tôi không coi một rủi ro có thể xảy ra là thiệt hại đã được nguồn xác nhận.
