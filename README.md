@@ -72,3 +72,4 @@
 | Probability | **Cao đối với nhóm khớp ngưỡng tuổi:** logic được lập trình để tự động từ chối. Không có mẫu số nên không nêu tỷ lệ phần trăm. |
 | Frequency | **Chưa đủ dữ liệu để đánh giá tần suất theo thời gian.** Việc EEOC nêu hơn 200 trường hợp cho thấy hành vi không chỉ là một lần đơn lẻ, nhưng nguồn không cho số đợt tuyển dụng hoặc thời gian vận hành. |
 | Vì sao? | Nguồn EEOC là nguồn cơ quan thực thi, cung cấp ngưỡng tuổi, số “more than 200”, khoản dàn xếp và thời hạn giám sát. Severity/Scale/Probability là đánh giá của tôi; giới hạn là thông cáo không mô tả thuật toán chi tiết hay mẫu số tổng đơn. |
+# Track1_Day22_2A202602872_VuQuangTien
